@@ -13,7 +13,7 @@ S.A.V.E (Semi-Autonomous Vehicle Execution System) is a full-stack robotics plat
 ---
 
 ## 🛠️ System Architecture
-
+```mermaid
 graph LR
 A[Image Processing + Skeletonization] --> B[Python script - dfs.py or eulerianPath.py]
 B --> C[DFS/Eulerian Path Planner]
@@ -21,7 +21,7 @@ C --> D[Coordinate Conversion]
 D --> E[ROS2 Node]
 E --> F[Motor Commands]
 F --> G[CoppeliaSim Edu]
-
+```
 ---
 
 ## Tech Stack
@@ -55,7 +55,7 @@ cd S.A.V.E-Semi-Autonomous-Vehicle-Execution-System
 python -m venv venv
 source venv\Scripts\activate
 pip install -r requirements.txt
-
+```
 
 ### 2. Get CoppeliaSim Edu
 
@@ -66,26 +66,26 @@ Platform - Windows(installer package)[x86_64]
 ```bash
 colcon build --packages-select waypoint_follower_pkg
 source install/setup.bash
-
+```
 
 ### 4. Launch ROS2 bridge in WSL2
 ```bash
 ros2 run rosbridge_server rosbridge_websocket
-
+```
 
 ### 5. Run DFS or Eulerian Path Planner - on Windows
 ```bash
 python dfs.py
-or
+#or
 python eulerianPath.py
-
+```
 
 ### 6. Run waypoint_follower on ROS2 in WSL2
 ```bash
 ros2 run waypoint_follower_pkg waypoint_follower
-
+```
 ### 7. Open CoppeliaSim scene (.ttt file)
 ### 8. Run ROS2->CoppeliaSim communicator script on Windows
 ```bash
 python coppeliasimros2.py
-
+```
