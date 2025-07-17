@@ -94,6 +94,8 @@ ros2 run waypoint_follower_pkg waypoint_follower
 python coppeliasimros2.py
 ```
 
+---
+
 ## Future Work
 #### 1. Integrate realtime obstacle avoidance
 #### 2. Turn off tracer when not in desired travel
