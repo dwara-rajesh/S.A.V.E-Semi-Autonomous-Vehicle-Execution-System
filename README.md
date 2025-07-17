@@ -59,7 +59,7 @@ pip install -r requirements.txt
 
 ### 2. Get CoppeliaSim Edu
 
-https://www.coppeliarobotics.com/
+https://www.coppeliarobotics.com/  
 Platform - Windows(installer package)[x86_64]
 
 ### 3. Build ROS2 Package in WSL2
