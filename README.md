@@ -23,6 +23,8 @@ D --> E[ROS2 Node]
 E --> F[Motor Commands]
 F --> G[CoppeliaSim Edu]
 
+---
+
 ## 💻 Tech Stack
 
 | Layer        | Tech                                                        |
