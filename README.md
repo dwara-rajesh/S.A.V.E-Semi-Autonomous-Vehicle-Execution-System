@@ -2,6 +2,7 @@
 
 S.A.V.E (Semi-Autonomous Vehicle Execution System) is a full-stack robotics platform designed to autonomously trace complex configuration spaces in physical environments using a DFS or Eulerian-based offline path planner. Built with ROS 2-jazzy, S.A.V.E bridges the digital and physical domains to support modular and scalable motion planning applications—particularly for sports field layout and configuration.
 
+DEMO: https://drive.google.com/file/d/1U7dqD4Cdola3IYuyUPecHm_zfnImnF6q/view?usp=drive_link
 ---
 
 ## 📦 Features
