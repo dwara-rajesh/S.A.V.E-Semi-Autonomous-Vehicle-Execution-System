@@ -16,7 +16,7 @@ S.A.V.E (Semi-Autonomous Vehicle Execution System) is a full-stack robotics plat
 
 ```mermaid
 graph LR
-A[Image Processing + Skeletonization] --> B[Python script (dfs.py/eulerianPath.py)]
+A[Image Processing + Skeletonization] --> B[Python script (dfs.py or eulerianPath.py)]
 B --> C[DFS/Eulerian Path Planner]
 C --> D[Coordinate Conversion]
 D --> E[ROS2 Node]
