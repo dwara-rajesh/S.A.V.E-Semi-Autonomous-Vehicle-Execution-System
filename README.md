@@ -94,7 +94,7 @@ python coppeliasimros2.py
 ```
 
 ## Future Work
-### 1. Integrate realtime obstacle avoidance
-### 2. Turn off tracer when not in desired travel
-### 3. Optimize path planning
-### 4. Sim2Real
+#### 1. Integrate realtime obstacle avoidance
+#### 2. Turn off tracer when not in desired travel
+#### 3. Optimize path planning
+#### 4. Sim2Real
